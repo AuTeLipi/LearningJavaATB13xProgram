@@ -4,7 +4,6 @@ public class Lab_Assignment01_9Table_UsingPrintMethods {
     public static void main(String[] args) {
         final int a = 9;
         final int b = 1;
-        final int c = 9;
         System.out.println("9 Table:");
         System.out.printf("%d x %d = %d%n", a, b, a * 1);
         System.out.printf("%d x %d = %d%n", a, b + 1, a * 2);
