@@ -1,6 +1,6 @@
 package Ex03_Literals;
 
-public class Lab_Assignment01_9Table_UsingPrintMethods {
+public class Lab031_Assignment01_9Table_UsingPrintMethods {
     public static void main(String[] args) {
         final int a = 9;
         final int b = 1;

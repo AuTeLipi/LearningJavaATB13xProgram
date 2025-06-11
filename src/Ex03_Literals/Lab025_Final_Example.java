@@ -1,6 +1,6 @@
 package Ex03_Literals;
 
-public class Lab024_Final_Example {
+public class Lab025_Final_Example {
     public static void main(String[] args) {
         int local = 0;
         System.out.println(local);

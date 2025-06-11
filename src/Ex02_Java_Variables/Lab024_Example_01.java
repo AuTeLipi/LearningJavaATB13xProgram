@@ -1,6 +1,6 @@
 package Ex02_Java_Variables;
 
-public class Lab_Example_01 {
+public class Lab024_Example_01 {
     //
 //    int i;
 //    static int s;

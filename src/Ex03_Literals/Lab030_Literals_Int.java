@@ -1,6 +1,6 @@
 package Ex03_Literals;
 
-public class Lab025_Literals_Int {
+public class Lab030_Literals_Int {
     public static void main(String[] args) {
         // Literal
         int age = 65;
