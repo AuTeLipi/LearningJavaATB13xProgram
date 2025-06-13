@@ -6,7 +6,7 @@ public class Lab_Fun_Assignment_Iron_Losses_In_Transformer {
     public static void main(String[] args) {
 
         int f = Integer.parseInt(args[0]);
-        // Takes frequency from Intellij CLI
+        // Taking frequency from Intellij CLI
         System.out.println("Frequency in India is 50 Hz (Standard)!");
 
         Scanner scanner = new Scanner(System.in);
