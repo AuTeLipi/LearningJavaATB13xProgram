@@ -1,8 +1,8 @@
-package Electrical_Machines;
+package Fun_Assignments.Electrical_Machines;
 
 import java.util.Scanner;
 
-public class Lab_Fun_Assignment_Iron_Losses_In_Transformer {
+public class Lab_Fun_Iron_Losses_In_Transformer {
     public static void main(String[] args) {
 
         int f = Integer.parseInt(args[0]);
@@ -25,15 +25,15 @@ public class Lab_Fun_Assignment_Iron_Losses_In_Transformer {
         System.out.println("Enter Volume of the magnetic material value in m^3:");
         float V = scanner.nextFloat();
 
-        float Ph = (kh * Bmax * f * V);
-        System.out.println("Hysteresis loss (Ph) in a transformer is: " + Ph + " in Watts");
-        // Hysteresis losses
-
         System.out.println("Enter Eddy Current coefficient (ke) value:");
         float ke = scanner.nextFloat();
 
         System.out.println("Enter Thickness of lamination (t) value in m:");
         float t = scanner.nextFloat();
+
+        float Ph = (kh * Bmax * f * V);
+        System.out.println("Hysteresis loss (Ph) in a transformer is: " + Ph + " in Watts");
+        // Hysteresis losses
 
         float a = 2 * (Bmax * f * t);
         float Pe = (ke * a * V);

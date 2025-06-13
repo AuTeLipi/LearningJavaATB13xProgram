@@ -1,8 +1,8 @@
-package Electrical_Machines;
+package Fun_Assignments.Electrical_Machines;
 
 import java.util.Scanner;
 
-public class Lab_Fun_Assignment_EMF_Equation_Of_Transformer {
+public class Lab_Fun_EMF_Equation_Of_Transformer {
     public static void main(String[] args) {
         int f = Integer.parseInt(args[0]);
         // frequency taken from Intellij CLI
