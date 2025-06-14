@@ -1,4 +1,4 @@
-package Fun_Assignments.General;
+package Fun_Programs.General;
 
 public class Lab_Fun_MiniCalculator_WithAllTypesOfOperators {
     public static void main(String[] args) {

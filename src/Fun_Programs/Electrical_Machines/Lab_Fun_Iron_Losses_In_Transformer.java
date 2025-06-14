@@ -1,4 +1,4 @@
-package Electrical_Machines;
+package Fun_Programs.Electrical_Machines;
 
 import java.util.Scanner;
 
