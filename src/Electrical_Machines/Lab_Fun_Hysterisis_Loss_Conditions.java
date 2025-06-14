@@ -1,4 +1,4 @@
-package Fun_Assignments.Electrical_Machines;
+package Electrical_Machines;
 
 import java.util.Scanner;
 
