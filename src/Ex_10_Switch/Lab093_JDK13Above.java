@@ -1,4 +1,4 @@
-package Ex_09_Switch;
+package Ex_10_Switch;
 
 public class Lab093_JDK13Above {
     public static void main(String[] args) {

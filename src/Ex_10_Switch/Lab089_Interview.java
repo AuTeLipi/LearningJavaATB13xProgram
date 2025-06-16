@@ -1,4 +1,4 @@
-package Ex_09_Switch;
+package Ex_10_Switch;
 
 public class Lab089_Interview {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Ex_09_Switch;
+package Ex_10_Switch;
 
 public class Lab092_Interview_Duplicate_Case {
     public static void main(String[] args) {
