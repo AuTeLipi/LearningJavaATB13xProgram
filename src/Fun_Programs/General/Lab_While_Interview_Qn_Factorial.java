@@ -21,7 +21,7 @@ public class Lab_While_Interview_Qn_Factorial {
             return;
         }
 
-        if(number <=0){
+        if(number <= 0){
             System.out.println(factorial);
         }else{
             // Calculate the factorial

@@ -1,4 +1,4 @@
-package Ex_11_While;
+package Ex_12_While;
 
 import java.util.Scanner;
 

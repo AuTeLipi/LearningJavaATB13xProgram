@@ -1,9 +1,9 @@
-package Ex_11_While;
+package Ex_12_While;
 
-public class Lab120_While_Check {
+public class Lab124_While {
     public static void main(String[] args) {
-        int i = 0;
-        while (i < 0) {
+        int i = 1;
+        while (i < 10) {
             System.out.println(i);
             i++;
         }
