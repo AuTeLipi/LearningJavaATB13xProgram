@@ -6,8 +6,8 @@ public class Lab092_Interview_Duplicate_Case {
         switch (a) {
             case 98:
                 System.out.println("98");
-//            case 98:
-//                System.out.println("98");
+            //case 98:
+            //   System.out.println("98");
         }
     }
 }

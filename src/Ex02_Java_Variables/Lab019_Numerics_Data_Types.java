@@ -10,6 +10,9 @@ public class Lab019_Numerics_Data_Types {
         char c= 'a';
         long l = 9876543210l;
         long l1 = 9876543210L;
+        double d = 649825.5649;
+        float f = 454895.549F;
+        String name = "Lipi";
 
         System.out.println(b);
         System.out.println(i);
@@ -17,6 +20,9 @@ public class Lab019_Numerics_Data_Types {
         System.out.println(c);
         System.out.println(l);
         System.out.println(l1);
+        System.out.println(f);
+        System.out.println(name);
+        System.out.println(d);
 
     }
 }

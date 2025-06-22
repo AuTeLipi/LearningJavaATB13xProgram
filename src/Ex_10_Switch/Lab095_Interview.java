@@ -10,9 +10,14 @@ public class Lab095_Interview {
             case -1:
                 System.out.println("10");
                 break;
-            case 9:
+            case 11:
                 System.out.println("9");
                 break;
+
+                /*
+                The switch is evaluating the expression -1 — not the value of a.
+                So, a = 11 is declared but not used in the switch at all.
+                 */
         }
     }
 }
