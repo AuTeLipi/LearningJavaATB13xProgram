@@ -10,9 +10,10 @@ public class Lab_Interview_Q_2nd_High_Number_Array_forloop {
 
         // One for loop starts from index 2
         for (int i = 2; i < numbers.length; i++) {
+
             int current = numbers[i];
 
-            // Update logic without using if, only ternary operators
+            // Using ternary operators to compare and swapping to get  largest & second largest
             largest = current > largest ? current : largest;
             secondLargest = (current < largest && current > secondLargest) ? current : secondLargest;
         }
@@ -21,11 +22,12 @@ public class Lab_Interview_Q_2nd_High_Number_Array_forloop {
         System.out.println("Largest number: " + largest);
         System.out.println("Second largest number: " + secondLargest);
 
-        // Print all indexes where second largest appears
+        // Print all indexes where second largest duplicate appears
         System.out.print("Second largest found at index(es): ");
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] == secondLargest ? i + " " : "");
         }
+
         System.out.println();
     }
 }
