@@ -16,8 +16,8 @@ public class P14_ATMWithdrawalSimulation {
 
         int amount = scanner.nextInt();
 
-        if ((amount < 0)) {
-            System.out.println("Amount entered is zero, enter the proper amount!");
+        if ((amount <= 0)) {
+            System.out.println("Amount entered is invalid, enter the proper amount!");
         } else if (amount % 100 != 0) {
             System.out.println("Enter Amount in multiple of 100");
         } else if (amount>AccBal) {
