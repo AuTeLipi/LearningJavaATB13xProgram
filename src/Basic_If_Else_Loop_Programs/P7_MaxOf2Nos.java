@@ -1,4 +1,4 @@
-package Basic_If_else_loop_programs;
+package Basic_If_Else_Loop_Programs;
 
 import java.util.Scanner;
 
