@@ -3,6 +3,7 @@ package Ex_19_OOPs_Constructor;
 public class Lab173_OOPs_Constructor {
     public static void main(String[] args) {
         Baby b1 = new Baby();
+
     }
 
 }
