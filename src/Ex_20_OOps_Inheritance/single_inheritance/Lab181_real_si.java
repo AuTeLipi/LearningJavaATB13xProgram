@@ -1,7 +1,7 @@
 package Ex_20_OOps_Inheritance.single_inheritance;
 
 public class Lab181_real_si {
-    ublic static void main(String[] args) {
+    public static void main(String[] args) {
         TestCase1 t1 = new TestCase1();
         t1.runningTC1();
 
