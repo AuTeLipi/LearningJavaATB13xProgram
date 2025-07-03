@@ -1,4 +1,4 @@
-package Tasks.Task_03rd_July_UsingPolymorphisim_and_Encapsulation.Method_Overriding;
+package Tasks.Task_03rd_July_UsingPolymorphism.Method_Overriding;
 
 public class EmployeeRoleInfo {
     public static void main(String[] args) {

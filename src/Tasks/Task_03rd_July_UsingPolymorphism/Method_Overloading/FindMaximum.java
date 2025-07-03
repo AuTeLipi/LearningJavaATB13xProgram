@@ -1,4 +1,4 @@
-package Tasks.Task_03rd_July_UsingPolymorphisim_and_Encapsulation.Method_Overloading;
+package Tasks.Task_03rd_July_UsingPolymorphism.Method_Overloading;
 
 public class FindMaximum {
     public static void main(String[] args) {
