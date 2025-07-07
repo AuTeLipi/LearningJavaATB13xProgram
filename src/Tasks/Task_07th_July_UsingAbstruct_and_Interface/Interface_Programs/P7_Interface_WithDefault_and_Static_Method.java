@@ -1,4 +1,4 @@
-package Tasks.Task_07th_July_UsingAbstruct.Interface_Programs;
+package Tasks.Task_07th_July_UsingAbstruct_and_Interface.Interface_Programs;
 
 public class P7_Interface_WithDefault_and_Static_Method {
     public static void main(String[] args) {

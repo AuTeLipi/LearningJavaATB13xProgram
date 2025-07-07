@@ -1,4 +1,4 @@
-package Tasks.Task_07th_July_UsingAbstruct.Abstract_Programs;
+package Tasks.Task_07th_July_UsingAbstruct_and_Interface.Abstract_Programs;
 
 public class P4_Abstract_Class_WithMethod_and_Constructor {
     public static void main(String[] args) {

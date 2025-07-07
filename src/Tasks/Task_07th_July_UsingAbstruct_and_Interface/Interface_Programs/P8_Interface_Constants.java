@@ -1,4 +1,4 @@
-package Tasks.Task_07th_July_UsingAbstruct.Interface_Programs;
+package Tasks.Task_07th_July_UsingAbstruct_and_Interface.Interface_Programs;
 
 public class P8_Interface_Constants {
     public static void main(String[] args) {

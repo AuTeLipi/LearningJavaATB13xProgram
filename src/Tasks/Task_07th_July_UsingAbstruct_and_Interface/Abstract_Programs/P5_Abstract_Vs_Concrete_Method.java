@@ -1,4 +1,4 @@
-package Tasks.Task_07th_July_UsingAbstruct.Abstract_Programs;
+package Tasks.Task_07th_July_UsingAbstruct_and_Interface.Abstract_Programs;
 
 public class P5_Abstract_Vs_Concrete_Method {
     public static void main(String[] args) {
