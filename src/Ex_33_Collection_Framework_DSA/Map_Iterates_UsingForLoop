@@ -1,0 +1,71 @@
+/====================================== Map - Iterations Using EntrySet & keySet ======================================/
+
+❓ Question: Difference between:
+1. for(String key : vehicles.keySet())
+2. for(Map.Entry<String, Integer> item : map.entrySet())
+
+------------------------------------------------------------------------------------------------------------------------
+👉 Explanation:
+------------------------------------------------------------------------------------------------------------------------
+🔹 1. for(String key : vehicles.keySet())
+
+✅ What it does:
+- Iterates only over the keys of the map.
+- If you need the value, you must do an extra lookup using vehicles.get(key).
+
+------------------------------------------------------------------------------------------------------------------------
+🔸 Example:
+------------------------------------------------------------------------------------------------------------------------
+Map<String, Integer> vehicles = new HashMap<>();
+vehicles.put("Car", 4);
+vehicles.put("Bike", 2);
+
+for (String key : vehicles.keySet()) {
+    System.out.println(key + " -> " + vehicles.get(key)); // extra lookup here
+}
+
+------------------------------------------------------------------------------------------------------------------------
+🔹 2. for(Map.Entry<String, Integer> item : map.entrySet())
+
+✅ What it does:
+- Iterates over the map entries (both key and value pairs).
+- More efficient when you need both key and value.
+
+------------------------------------------------------------------------------------------------------------------------
+🔸 Example:
+------------------------------------------------------------------------------------------------------------------------
+Map<String, Integer> vehicles = new HashMap<>();
+vehicles.put("Car", 4);
+vehicles.put("Bike", 2);
+
+for (Map.Entry<String, Integer> entry : vehicles.entrySet()) {
+    System.out.println(entry.getKey() + " -> " + entry.getValue());
+}
+
+------------------------------------------------------------------------------------------------------------------------
+💡 Key Differences
+====================================================================================================================
+|       Feature	        |             keySet()	           |                    entrySet()                         |
+--------------------------------------------------------------------------------------------------------------------
+| Iterates over	        |  Keys only	                   |    Key-value pairs (Map.Entry)                        |
+| Need to fetch value?	|  Yes, using map.get(key)	       |    No, directly accessible from entry.getValue()      |
+| Performance	        |  Slightly slower (extra lookup)  |    More efficient when both key & value needed        |
+| Use case	            |  When only keys are needed	   |    When both key and value are needed                 |
+====================================================================================================================
+
+------------------------------------------------------------------------------------------------------------------------
+Explain this below piece of code:
+------------------------------------------------------------------------------------------------------------------------
+Enumeration<Integer> e  = ht1.keys();
+while (e.hasMoreElements()){
+System.out.println(e.nextElement());
+------------------------------------------------------------------------------------------------------------------------
+✅ Enumeration<Integer> e = ht1.keys();
+This gets an enumeration (like an iterator) of all the keys from the Hashtable ht1.
+
+✅ while (e.hasMoreElements())
+This loop runs as long as there are more elements (keys) left to read.
+
+✅ System.out.println(e.nextElement());
+This prints each key one by one from the Hashtable.
+------------------------------------------------------------------------------------------------------------------------
