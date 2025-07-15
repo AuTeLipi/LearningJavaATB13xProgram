@@ -26,7 +26,7 @@ Ans:the part (String[] args) is the parameter of the method. Let's break it down
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-5) main(String[] args) in this insted of args can i write something else like java, or Selenium like this (String[] Selenium)?
+5) main(String[] args) in this instead of args can i write something else like java, or Selenium like this (String[] Selenium)?
 Ans: In Java, you can rename the parameter name inside the main method —
 the name args is just a convention. You can use any valid variable name like:
      public static void main(String[] Selenium)
