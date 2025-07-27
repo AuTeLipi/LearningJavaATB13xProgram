@@ -67,7 +67,7 @@ As an aspiring SDET, having a solid grip on Java empowers you to:
 This is a self-learning repository. If you find anything worth improving or want to discuss Java for automation testing, feel free to:
 - Raise an Issue
 - Fork and Star ⭐ the repo
-- Connect via [LinkedIn](in/d-lipi-goud-81790816a)
+- Connect via [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/d-lipi-goud-81790816a)
 
 ---
 
